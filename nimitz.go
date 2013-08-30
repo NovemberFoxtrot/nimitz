@@ -5,7 +5,10 @@ import (
 	"sir"
 )
 
+var ThePool Pool
+
 type TemplateCache map[string]*template.Template
+
 type Pool struct {
 	Pools TemplateCache
 }
